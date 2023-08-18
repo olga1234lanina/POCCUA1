@@ -24,7 +24,7 @@ bool ValiDateNimber(int number)
  {
      if (number < 100)
      {
-        Console.WriteLine("Ошибка!Некорректное число. Попробуйте еще раз!");
+        Console.WriteLine("Ошибка! Некорректное число.Попробуйте еще раз!");
          return false;
             }
      return true;
